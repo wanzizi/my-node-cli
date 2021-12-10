@@ -24,6 +24,7 @@ co(function* () {
 
     console.log(chalk.white('\n Start generating...'));
     console.log('master');
+    console.log('master1');
 
     exec(cmdStr, (error, stdout, stderr) => {
         if (error) {
